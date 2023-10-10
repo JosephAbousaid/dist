@@ -1,0 +1,120 @@
+.quarterlymenu{
+  width:800px;
+  text-align:center;
+}
+.menu{
+  display:inline-block;
+  width:45%;
+  vertical-align:top;
+  text-align:center;
+}
+.h1{
+ position: relative;
+ background-image: url(https://drive.google.com/uc?export=view&id=1KVDapld513gDp4XOaLft0qfmeyxhszdV);
+ background-size: cover;
+ height:200px;
+ background-position: center;
+ text-align: center;
+ color: #fff;
+ padding:25px 10px 150px 10px;
+ font-family:american typewriter;
+ font-size:30px;
+ text-align:center;
+ color:white;
+}
+.logo {
+    width: 100px;
+    height: 120px;
+    position: relative;
+    bottom: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.aboutuscontainer {
+  border-style: solid linen;
+  background-color: linen;
+  display: flex;
+  flex-direction: row;
+  margin:-140px 0px 10px 0px;
+}
+
+.h2 {
+  font-family: 'freemono', sans-serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.paragraph {
+  flex: 1;
+  font-family: 'courier', monospace;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.aboutusimage {
+  padding: 10px;
+  height: auto;
+  width: auto;
+}
+
+img {
+  max-width: 300px;
+  height: 250px;
+}
+.h3{
+  font-family:georgia;
+  color:blue;
+  text-align:center;
+}
+.paragraphmenu{
+  font-family:cursive;
+  font-size:15px;
+}
+.content{
+  width:800px; 
+}
+.image-container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.footerbox {
+  max-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Change to center vertically */
+  flex-direction: row;
+  margin: 10px;
+}
+
+.footerimages {
+  display: flex;
+  max-width: 100%; /* Ensure the container can grow horizontally */
+  height: auto; /* Allow the container to adjust its height based on content */
+  margin: 5px;
+}
+
+.footerimages a {
+  display: inline-block;
+  margin: 5px;
+}
+
+.footerimages img {
+  max-width: 30px; /* Set the maximum width for the logos */
+  height: 30px;
+}
+.hidden-on-load{
+  opacity:0;
+}
+.mathematiciancontainer{
+  border-style: solid linen;
+  background-color: red;
+  padding:25px;
+}
+.location{
+  display:flex;
+  border-style: solid linen;
+  margin: 10px;
+  padding:5px;
+}
